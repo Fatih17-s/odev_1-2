@@ -11,7 +11,7 @@ public class Item {
         this.satisfiyat = satisfiyat;
     }
 
-    // Getter ve Setter metotları (aynı şekilde kalabilir)
+
     public String getUrunadi() {
         return urunadi;
     }
@@ -44,13 +44,13 @@ public class Item {
         this.alisfiyat = alisfiyat;
     }
 
-    // Satış fiyatını %20 arttıran metod
+    // Satıs fiyatini %20 arttiran metod
     public void artisYap() {
         double yeniSatisFiyati = this.satisfiyat * 1.20;
         System.out.println("%20 zamli fiyat : " + yeniSatisFiyati);
     }
 
-    // Ürünün elde ettiği kârı hesaplayan metod
+    //urunun elde ettigi kari hesaplayan metod
     public void karHesapla() {
         int kar = this.satisfiyat - this.alisfiyat;
         System.out.println("Ürünün elde ettiği kar : " + kar);
